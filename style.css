@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
 .carousel-inner img {
     height: 400px;
+}
+.duration {
+    background-color: #FFE4E8;
+    color: #ED6B4F;
+}
+.checked {
+    color: orange;
+}
+h2,h3 {
+    font-family: 'Poppins', sans-serif;
 }
