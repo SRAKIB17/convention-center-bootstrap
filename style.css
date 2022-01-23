@@ -9,3 +9,7 @@
 h2,h3 {
     font-family: 'Poppins', sans-serif;
 }
+.offer {
+    position: absolute;
+    right: 0px;
+}
