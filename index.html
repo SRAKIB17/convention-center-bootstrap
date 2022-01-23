@@ -7,6 +7,7 @@
     <title>Convention Center</title>
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -36,35 +37,55 @@
             </div>
           </nav>
           <!-- slide image -->
-          <section>
+          <section class="mt-4">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
+                    <div class="carousel-item active">
+                        <img src="images/slide-1 (1).jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                            <form action="http://google.com">
+                                <button type="submit" class="btn bg-primary text-white">Book Now</button>
+                            </form>
+                        </div>
                     </div>
+                    <div class="carousel-item">
+                        <img src="images/slide-1 (1).png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                            <form action="http://google.com">
+                                <button type="submit" class="btn bg-primary text-white">Book Now</button>
+                            </form>
+                        </div>
                   </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Second slide label</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
+                    <div class="carousel-item">
+                        <img src="images/slide-1 (2).jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            <form action="http://google.com">
+                                <button type="submit" class="btn bg-primary text-white">Book Now</button>
+                            </form>
+                        </div>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
+                    <div class="carousel-item">
+                        <img src="images/slide-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                            <form action="http://google.com">
+                                <button type="submit" class="btn bg-primary text-white">Book Now</button>
+                            </form>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -77,6 +98,36 @@
               </div>
           </section>
     </header>
+    <main>
+        <!-- metro event center  -->
+        
+        <section class="mt-5">
+            <div class="container row align-items-center">
+                <div class="col-lg-6">
+                    <img src="images/metro-event.webp" class="rounded-3 img-fluid" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h2>Metro Event Center</h2>
+                    <p>
+                        Your vision. Your style. Your day. Metro Ale House & Event Center promises to help you make your wedding celebration uniquely yours. Metro Ale House & Event Center is an eye catching vintage-inspired facility. Metro's clean, welcoming environment is one that the whole family will enjoy. <a href="#" class="btn bg-primary text-white">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="mt-5">
+            <!-- buy packege -->
+            <div class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                  <div class="toast-body">
+                  Hello, world! This is a toast message.
+                 </div>
+                  <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+              </div>
+
+        </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html> 
