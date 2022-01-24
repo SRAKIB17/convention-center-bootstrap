@@ -13,6 +13,9 @@ h2,h3 {
     position: absolute;
     right: 0px;
 }
+.hot-packege {
+    background-color: rgba(0, 183, 255, 0.116);
+}
 i {
     margin-right: 2px;
 }
